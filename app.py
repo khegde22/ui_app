@@ -3,7 +3,6 @@ import pandas as pd
 
 #Mapping dataframe
 company_name_df = pd.read_excel('company_name_map.xlsx')
-company_name_df = company_name_df.iloc[0:10,]
 
 # Set page layout to wide
 st.set_page_config(layout="wide")
